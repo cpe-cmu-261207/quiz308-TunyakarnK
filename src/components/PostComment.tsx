@@ -22,9 +22,9 @@ const PostComment = ({username,userImagePath,commentText,likeNum,replies}:Commen
               </div>
             </div>
           </div>
-          {/* <div>
-        {comments.map(x=> <PostComment username={x.username} userImagePath={x.userImagePath} commentText={x.commentText} likeNum={x.likeNum} replies={x.replies}></PostComment> )}
-        </div> */}
+          <div>
+        {replies.map(x=> <Repiles username={x.username} userImagePath={x.userImagePath} commentText={x.commentText} likeNum={x.likeNum} replies={x.replies}></Repiles> )}
+        </div> 
 
           </div>
 	)
